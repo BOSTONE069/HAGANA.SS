@@ -1,0 +1,140 @@
+/*--------------------------------------------------------------
+# About Lists
+--------------------------------------------------------------*/
+.about-lists {
+  padding: 40px;
+}
+
+.about-lists .row {
+  overflow: hidden;
+}
+
+.about-lists .content-item {
+  padding: 40px;
+  border-left: 1px solid #d9e8f4;
+  border-bottom: 1px solid #d9e8f4;
+  margin: -1px;
+}
+
+.about-lists .content-item span {
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+  color: #9eccf4;
+}
+
+.about-lists .content-item h4 {
+  font-size: 28px;
+  font-weight: 400;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.about-lists .content-item p {
+  color: #aaaaaa;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .about-lists .content-item {
+    padding: 40px 0;
+  }
+}
+
+
+
+
+/*-- model_signin --*/
+.modal-body.modal-body-sub_agile input[type="text"],
+.modal-body.modal-body-sub_agile input[type="email"],
+.modal-body.modal-body-sub_agile input[type="password"] {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #777;
+  padding: 10px 0;
+  border: 0;
+  width: 100%;
+  border-bottom: 1px solid #dcdcdc;
+  background: none;
+  -webkit-appearance: none;
+  outline: none;
+  margin-bottom: 20px;
+}
+.modal-body.modal-body-sub_agile input[type="submit"] {
+  border: none;
+  padding: 10px 40px;
+  font-size: 14px;
+  outline: none;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background: #ffbb2c;
+  color: #fff;
+  margin: 20px 0;
+}
+.modal-body.modal-body-sub_agile input[type="submit"]:hover {
+  background: rgb(116, 157, 219);
+}
+h3.agileinfo_sign {
+  font-size: 33px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffbb2c;
+}
+h3.agileinfo_sign span {
+  font-weight: 300;
+}
+.modal-content {
+  position: relative;
+}
+.main-mailposi span {
+  position: absolute;
+  font-size: 150px;
+  color: #e8e8e8;
+  opacity: 0.4;
+  right: 7%;
+  transform: rotate(-35deg);
+  -ms-transform: rotate(-35deg);
+  -webkit-transform: rotate(-35deg);
+}
+/* placeholder */
+.modal-body.modal-body-sub_agile ::-webkit-input-placeholder {
+  color: #212121 !important;
+}
+/* //placeholder */
+.modal-body.modal-body-sub_agile p a {
+  color: #ff5722;
+}
+.modal-body.modal-body-sub_agile p {
+  line-height: 2em;
+  color: #000;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.modal-body.modal-body-sub_agile {
+  padding: 0 2em 2em;
+  margin-top: 1em;
+}
+
+.modal-dialog {
+ 
+          width: 180%;
+ 
+        }
+ 
+.modal-header {   
+ 
+    padding:16px 16px;
+ 
+    color:#FFF;
+ 
+    
+ 
+ }
+/*-- //model_signin --*/
